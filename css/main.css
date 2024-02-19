@@ -1,0 +1,710 @@
+html {
+    height: 100%;
+    display: flex;
+}
+
+input,
+label {
+    display: block;
+}
+
+body {
+    flex: 1;
+}
+
+div.inlineBlock>div {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.481);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.backgroundForGalleryPHP {
+    background-image: url('..//images/still-items-things-plants-9eb00cb3a14c2fd8777d30d7c6689d41.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /*center (on parent item)*/
+
+
+}
+
+.mainTitleFeatures {
+    padding-top: 110px;
+    font-size: 75px;
+    font-family: Edwardian Script ITC;
+    color: rgba(0, 0, 0, 0.704);
+}
+
+.fontFeatures {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.textboxFeatures {
+    all: unset;
+    border-radius: 7px;
+    border: 1px solid #078a9e44;
+    /* background-color: rgba(255, 255, 255, 0.500); */
+    height: 30px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.textboxFeatures2 {
+    all: unset;
+    border-radius: 7px;
+    border: 2px solid #078a9e44;
+    /* background-color: rgba(255, 255, 255, 0.500); */
+    height: 30px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.firstDiv {
+    height: 640px;
+}
+
+.button {
+    all: unset;
+    width: 320px;
+    height: 35px;
+    margin-bottom: 18px;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.500);
+    background-color: rgba(28, 53, 28, 0.335);
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.button:active {
+    background-color: #17a3b820;
+}
+
+.button2 {
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.415);
+    color: black;
+    border: 2px solid #06718185;
+    border-radius: 5px;
+}
+
+.button3 {
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.415);
+    color: black;
+    border: 2px solid rgba(237, 83, 27, 0.893);
+    border: 2px solid rgba(237, 83, 27, 0.369);
+    border-radius: 5px;
+}
+
+.registration {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Lucida Calligraphy;
+    color: rgba(237, 83, 27, 0.820);
+    text-align: center;
+}
+
+.registration2 {
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-family: Lucida Calligraphy;
+    color: rgba(237, 83, 27, 0.820);
+    text-align: center;
+}
+
+
+.fontFamily {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.scrollbar {
+    height: 558px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    margin: auto;
+    width: 100%;
+}
+
+
+.scrollbarForAdminData{
+
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    margin: auto;
+    width: 100%;
+
+}
+
+.copyright {
+    font-size: 13px;
+    color: rgba(97, 97, 97, 0.86);
+    margin-top: 15px;
+}
+
+.tableHeadFeatures {
+    font-family: Lucida Calligraphy;
+    color: rgba(237, 83, 27, 0.820);
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+
+}
+
+.tablebackground{
+    background-color: rgba(255, 255, 255, 0.481);
+}
+
+/*header*/
+.background {
+    background-image: url('../images/still-items-things-plants-9eb00cb3a14c2fd8777d30d7c6689d41.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /*center (on parent item)*/
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundForGlossary {
+    background-image: url('../Images/still-items-things-plants-9eb00cb3a14c2fd8777d30d7c6689d41.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.backgroundForGallery {
+    background-image: url('../Images/still-items-things-plants-9eb00cb3a14c2fd8777d30d7c6689d41.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#plantHome .activeLink {
+    color: #0b549d;
+}
+
+#plantGlossary .activeLink2 {
+    color: #0b549d;
+}
+
+#plantGallery .activeLink3 {
+    color: #0b549d;
+}
+
+#plantNotify .activeLink4 {
+    color: #0b549d;
+}
+
+#plantSosnovskis .activeLink5 {
+    color: #0b549d;
+}
+
+#plantElodeja .activeLink6 {
+    color: #0b549d;
+}
+
+.tb {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+div{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.titleh1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titleh2 {
+    text-align: center;
+    font-family: Freestyle Script;
+}
+
+
+.navigationBar {
+    height: 42px;
+    background-color: rgba(28, 53, 28, 0.625);
+    color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.child1 {
+    position: absolute;
+    right: 30px;
+}
+
+.navBarFonts {
+    color: white;
+    margin-right: 30px;
+}
+
+.inputFeatures {
+    border-style: none;
+    border-radius: 4px;
+    height: 28px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+button {
+    all: unset;
+}
+
+button:hover {
+    background-color: rgba(176, 224, 176, 0.621);
+}
+
+.linkFeat{
+    text-decoration: none; 
+    color: #0b549d;
+}
+
+/*index.html CSS for Articles*/
+
+.articleStyle {
+    background-color: rgba(216, 219, 216, 0.74);
+    height: 520px;
+    width: 400px;
+    display: inline-block;
+    margin-top: 90px;
+    margin-right: 70px;
+    border-radius: 10px;
+}
+
+.articleStyle>p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.articleStyle>h4 {
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.articleStyle>h6 {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.articleStyle>p {
+    font-size: 15px;
+}
+
+.articleStyle>ul {
+    font-size: 15px;
+}
+
+.authorFeatures {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.readmoreFeatures {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footerFeatures {
+    /*center (on parent item)*/
+    display: flex;
+    justify-content: center;
+    /**/
+    height: 200px;
+    background-color: rgba(28, 53, 28, 0.655);
+    border-radius: 3px;
+}
+
+.footerInfo {
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 120px;
+    width: 250px;
+    color: white;
+}
+
+.footerInfo>h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footerFonts {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+/*notify.html CSS*/
+
+.registrationFeatures {
+    background-color: rgba(216, 219, 216, 0.74);
+    width: 540px;
+    height: 670px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.titleFeat {
+    font-size: 22px;
+    height: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitleFeat {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.textboxFeatures {
+    all: unset;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    height: 24px;
+    width: 148px;
+    font-size: 12px;
+    padding: 2.3px;
+    padding-left: 5px;
+}
+
+.selectBoxFeatures {
+    border-style: none;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    height: 27px;
+    width: 70px;
+    font-size: 12px;
+}
+
+.selectGenderFeatures {
+    border-style: none;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    height: 27px;
+    width: 133px;
+    font-size: 12px;
+}
+
+.selectBirthDateFeat {
+    border-style: none;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    height: 27px;
+    width: 155px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.selectPlantsFeatures {
+    border-style: none;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    height: 27px;
+    width: 154px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.addressBoxFeatures {
+    all: unset;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    height: 27px;
+    width: 464px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.addressBoxFeatures2 {
+    all: unset;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    height: 27px;
+    width: 215px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.textareaFeatures {
+    border-style: none;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    width: 469px;
+    resize: none;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.conteinerForm {
+    padding: 20px;
+}
+
+.nameLine {
+    display: inline-block;
+}
+
+.fontStyle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.smallFontStyle {
+    font-size: 11px;
+    margin-bottom: 18px;
+    margin-top: 3px;
+}
+
+.m-r-s {
+    margin-right: 25px;
+}
+
+.m-l-s {
+    margin-left: 40px;
+}
+
+.m-t-s {
+    margin-top: 15px;
+}
+
+.buttonContact {
+    width: 469px;
+    height: 27px;
+    border-radius: 4px;
+    background-color: rgba(28, 53, 28, 0.512);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.buttonPrint {
+    width: 60%;
+    height: 27px;
+    border-radius: 4px;
+    background-color: rgba(28, 53, 28, 0.512);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    margin-left: 20%;
+}
+
+.displayBlock{
+    display: block;
+}
+
+.displayInlineBlock{
+    display: inline-block;
+}
+
+/*glossary.html CSS*/
+
+.glossaryDivParent {
+    display: block;
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+.glossaryDivChild {
+    height: 280px;
+    margin-bottom: 40px;
+    background-color: rgba(216, 219, 216, 0.74);
+    border-radius: 10px;
+}
+
+.glossaryTextMargings {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.glossaryTermsMargings {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.textSize {
+    font-size: 15px;
+}
+
+.textCopyright {
+    font-size: 13px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.listIcon {
+    list-style: none;
+    background-image: url('../Images/listIcon.png');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    margin-left: 10px;
+}
+
+/*gallery.html*/
+.galleryStyle {
+    background-color: rgba(216, 219, 216, 0.74);
+    height: 600px;
+    width: 950px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.overflowAction {
+    height: 580px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+th {
+    background: rgba(147, 160, 147, 0.844);
+    position: sticky;
+    /* this, required for the stickiness */
+    top: 0;
+}
+
+.hover:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.parent1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.titleGallary {
+    position: absolute;
+    right: 40px;
+    height: 540px;
+    width: 210px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.divTitleStyle {
+    margin-top: 85px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.342);
+}
+
+.divTextStyle {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.quoteFeat {
+    /*background-color: #93734010;*/
+    background-color: #d9c6b418;
+    height: 42px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+
+.plantFontSize{
+    font-size: 14px;
+}
+
+/*gallery.html->child page*/
+
+.backgroundPlantChildPage {
+    background-image: url('../Images/still-items-things-plants-9eb00cb3a14c2fd8777d30d7c6689d41.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundPlantChildPage2 {
+    background-image: url('/Images/still-items-things-plants-9eb00cb3a14c2fd8777d30d7c6689d41.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.plantsChildPage {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: rgba(216, 219, 216, 0.74);
+    height: auto;
+    width: 950px;
+    border-radius: 5px;
+}
+
+.plantChildPageMargins {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.fotoFeatures {
+    border-radius: 5px;
+}
+
+.imgStyle{
+    float: left; 
+    margin-right: 30px; 
+    width: 300px; 
+    margin-top: 40px; 
+    margin-left: 40px;
+}
+
+.m-l-r{
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
